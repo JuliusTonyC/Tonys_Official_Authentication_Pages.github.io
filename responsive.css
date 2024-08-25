@@ -46,7 +46,7 @@
     label,
     input,
     select {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #form > header > p {
@@ -55,7 +55,7 @@
 
     input,
     select {
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
@@ -81,7 +81,7 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     header {
@@ -103,7 +103,7 @@
     label,
     input[type="submit"],
     input[type="reset"] {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -132,7 +132,7 @@
     #hyperlink > p,
     input,
     select {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     input,
@@ -142,14 +142,14 @@
 
     input[type="submit"],
     input[type="reset"] {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1179px) {
     #form > header > p,
     #hyperlink > p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     header {
@@ -181,7 +181,7 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     main {
@@ -194,7 +194,7 @@
     select {
         width: 30rem;
         height: 2.5rem;
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -209,19 +209,19 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     input,
     select {
         width: 27rem;
         height: 2.4rem;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -232,20 +232,20 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     input,
     select {
         width: 22rem;
         height: 2.3rem;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     input[type="submit"],
     input[type="reset"] {
         width: 14rem;
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -256,14 +256,14 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     input,
     select {
         width: 20.5rem;
         height: 2.2rem;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     input[type="submit"],
@@ -283,14 +283,14 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     input,
     select {
         width: 17.5rem;
         height: 2.1rem;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     input[type="submit"],
@@ -314,14 +314,14 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     input,
     select {
         width: 17.5rem;
         height: 2.1rem;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     input[type="submit"],
@@ -348,11 +348,11 @@
     select {
         width: 16.5rem;
         height: 2.1rem;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #nationality {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     input[type="submit"],
@@ -377,7 +377,7 @@
 
     #form > header > p,
     #hyperlink > p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     input,
@@ -385,11 +385,11 @@
         width: 13.5rem;
         height: 1.9rem;
         margin-bottom: 10px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #nationality {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     input[type="submit"],
