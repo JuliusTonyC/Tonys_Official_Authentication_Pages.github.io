@@ -36,10 +36,52 @@
     }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 2213px) and (min-width: 1709px) {
+    #form {
+        width: 60%;
+    }
+
+    #form > header > p,
+    #hyperlink > p,
+    label,
+    input,
+    select {
+        font-size: 18px;
+    }
+
+    #form > header > p {
+        font-size: 1.25rem;
+    }
+
+    input,
+    select {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1709px) and (min-width: 1508px) {
+    #form {
+        width: 70%;
+    }
+
+    #form > header > p,
+    #hyperlink > p,
+    label,
+    input,
+    select {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1508px) {
     #form {
         width: 70%;
         padding-top: 50px;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 17px;
     }
 
     header {
@@ -55,10 +97,30 @@
     input,
     select {
         width: 25rem;
+        font-size: 17px;
+    }
+
+    label,
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 18px;
     }
 }
 
 @media only screen and (min-width: 1293px) and (max-width: 1464px) {
+    #form > header > p,
+    #hyperlink > p,
+    input,
+    select {
+        font-size: 17px;
+    }
+
+    label,
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 17px;
+    }
+
     input,
     select {
         width: 22rem;
@@ -66,13 +128,30 @@
 }
 
 @media only screen and (min-width: 1179px) and (max-width: 1292px) {
+    #form > header > p,
+    #hyperlink > p,
+    input,
+    select {
+        font-size: 17px;
+    }
+
     input,
     select {
         width: 20rem;
     }
+
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1179px) {
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 18px;
+    }
+
     header {
         width: 60%;
         justify-content: center;
@@ -88,12 +167,21 @@
     select {
         width: 18rem;
     }
+
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 17px;
+    }
 }
 
-@media only screen and (min-width: 970px) and (max-width: 1075px) {
-    header {
-        width: 60%;
-        justify-content: center;
+@media only screen and (min-width: 940px) and (max-width: 1075px) {
+    #form {
+        width: 63%;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 17px;
     }
 
     main {
@@ -105,141 +193,213 @@
     input,
     select {
         width: 30rem;
+        height: 2.5rem;
+        font-size: 18px;
     }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 970px) {
+@media only screen and (min-width: 700px) and (max-width: 940px) {
+    #form {
+        width: 68%;
+    }
+
     main {
         width: 75%;
     }
 
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 17px;
+    }
+
     input,
     select {
-        width: 25rem;
-        font-size: 15px;
+        width: 27rem;
+        height: 2.4rem;
+        font-size: 18px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 700px) {
+    #form {
+        width: 72%;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 17px;
+    }
+
     input,
     select {
-        width: 20rem;
-        font-size: 15px;
+        width: 22rem;
+        height: 2.3rem;
+        font-size: 18px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        width: 10rem;
-        font-size: 15px;
+        width: 14rem;
+        font-size: 17px;
     }
 }
 
 @media only screen and (max-width: 574px) {
+    #form {
+        width: 80%;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 17px;
+    }
+
     input,
     select {
-        width: 17rem;
+        width: 20.5rem;
+        height: 2.2rem;
+        font-size: 18px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        width: 10rem;
-    }
-
-    main {
-        gap: 10px;
+        width: 12rem;
     }
 }
 
 @media only screen and (max-width: 470px) {
+    #form {
+        width: 80%;
+    }
+
+    #form > header > h1 {
+        font-size: 31px;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 17px;
+    }
+
+    input,
+    select {
+        width: 17.5rem;
+        height: 2.1rem;
+        font-size: 18px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 11rem;
+    }
+
     #hyperlink {
-        margin-top: 10px;
+        margin-top: 30px;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    main {
-        width: 80%;
+    #form {
+        width: 85%;
+    }
+
+    #form > header > h1 {
+        font-size: 31px;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 16px;
     }
 
     input,
     select {
-        width: 14rem;
-        height: 2rem;
+        width: 17.5rem;
+        height: 2.1rem;
+        font-size: 18px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        width: 8rem;
+        width: 11rem;
     }
 }
 
 @media only screen and (max-width: 365px) {
-    #form > header > h1 {
-        font-size: 1rem;
+    #form {
+        width: 87%;
     }
 
-    #form > header > p {
-        font-size: 11px;
+    #form > header > h1 {
+        font-size: 29px;
+    }
+
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 14px;
     }
 
     input,
     select {
-        width: 10rem;
-        height: 1.8rem;
-        font-size: 10px;
+        width: 16.5rem;
+        height: 2.1rem;
+        font-size: 18px;
+    }
+
+    #nationality {
+        font-size: 18px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        width: 7rem;
-    }
-
-    #hyperlink > p {
-        font-size: 12px;
+        width: 11rem;
     }
 }
 
-@media only screen and (max-width: 340px) {
+/* Be right back to edit the code below and make it better and then host the page */
+
+@media only screen and (max-width: 341px) {
+    #form > header > h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
     #form > header > img {
         width: 65px;
         height: 55px;
         padding-left: 11px;
     }
 
-    #form > header > h1 {
-        font-size: 22px;
-        padding-top: 5px;
-    }
-
-    #form > header > p {
-        font-size: 11px;
+    #form > header > p,
+    #hyperlink > p {
+        font-size: 13px;
     }
 
     input,
     select {
-        width: 190px;
-        height: 1.5rem;
+        width: 13.5rem;
+        height: 1.9rem;
         margin-bottom: 10px;
-        font-size: 11px;
+        font-size: 15px;
+    }
+
+    #nationality {
+        font-size: 15px;
     }
 
     input[type="submit"],
     input[type="reset"] {
-        width: 5rem;
+        width: 6rem;
         padding-right: 10px;
         font-size: 11px;
     }
 
     label {
         font-size: 13px;
-    }
-
-    #hyperlink > p {
-        font-size: 12px;
     }
 }
