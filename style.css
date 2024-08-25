@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #e1ecec;
+}
+
+#form {
+    background-color: white;
+    width: 68%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 50px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+
+    align-items:flex-start;
+    margin-bottom: 25px;
+    margin-left: 10.5%;
+}
+
+
+#form > header > img{
+    width: 88px;
+    height: 88px;
+    margin-left: -25px;
+    margin-bottom: -20px;
+    margin-top: -25px;
+}
+
+
+#form > header > h1{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#form > header > p {
+    color: rgba(66, 65, 65, 0.9);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 25rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid #8b8e95;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 3px;
+}
+
+select {
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    padding-left: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 17px;
+    appearance: none; 
+    margin-bottom: 10px;
+}
+
+#phone-number {
+    padding-left: 40px; 
+    background: url('https://flagcdn.com/w20/br.png') 
+    no-repeat 10px center; 
+    background-size: 20px; 
+    appearance: none; 
+    background-color: white; 
+    border: 1px solid #8b8e95;
+}
+
+#phone-number:focus {
+    border-color: #4931a8; 
+    outline: none; 
+}
+
+#nationality:focus {
+    border-color: #4931a8; 
+    outline: none; 
+}
+
+#nationality {
+    padding-left: 40px; 
+    background: url('https://flagcdn.com/w20/br.png') no-repeat 10px center; 
+    background-size: 20px; 
+}
+
+#nationality option {
+    padding-left: 40px;
+}
+
+#nationality::-ms-expand, #id-type::-ms-expand {
+    display: none; 
+}
+
+#id-type {
+    color: #8b8e95;
+}
+
+#nationality {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#dob {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#8b8e95;
+}
+
+#id-type{
+    color: #8b8e95;
+}
+
+input[type="submit"] {
+    background-color: #4931a8;
+    border: 1px solid #4931a8;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    outline: none;
+    background-color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: #4931a8;
+    border-color: #4931a8;
+    color: white;
+}
+
+#hyperlink {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+#hyperlink > p{
+    padding-bottom: 40px;
+    color: rgba(66, 65, 65, 0.9);
+}
+
+#hyperlink > p > a {
+    text-decoration: none;
+    color: #4931a8;
+    font-weight: bold;
+}

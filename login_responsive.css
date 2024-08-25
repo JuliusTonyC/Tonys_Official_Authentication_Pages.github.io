@@ -1,0 +1,136 @@
+@media only screen and (max-width: 1301px) {
+    header > h1 {
+        font-size: 2rem;
+    }
+
+    #form {
+        width: 40%;
+        margin-top: 7%;
+    }
+
+    input,
+    #google-button {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 1085px) {
+    #form {
+        width: 50%;
+        margin-top: 7%;
+    }
+
+    input,
+    #google-button {
+        width: 24rem;
+        font-size: 17px;
+    }
+
+    #hyperlink > p,
+    header > p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 935px) {
+    #form {
+        width: 55%;
+        margin-top: 7%;
+    }
+
+    input,
+    #google-button {
+        width: 24rem;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #form {
+        width: 60%;
+    }
+
+    header > h1 {
+        font-size: 28px;
+    }
+
+    header > p,
+    #hyperlink > p {
+        font-size: 16px;
+    }
+
+    input,
+    #google-button {
+        width: 20rem;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    #form {
+        width: 60%;
+    }
+
+    #form > header > img {
+        width: 58px;
+        height: 58px;
+    }
+
+    input,
+    #google-button {
+        width: 19rem;
+        height: 2.2rem;
+        font-size: 16px;
+    }
+
+    #hyperlink > p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #form {
+        width: 60%;
+    }
+
+    input,
+    #google-button {
+        width: 16rem;
+        height: 2rem;
+        font-size: 15px;
+    }
+
+    #hyperlink > p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    #form {
+        width: 60%;
+        margin-top: 15%;
+    }
+
+    input,
+    #google-button {
+        width: 15rem;
+        height: 2rem;
+        font-size: 16px;
+    }
+
+    #hyperlink > p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 387px) {
+    input,
+    #google-button {
+        width: 13rem;
+        font-size: 14px;
+    }
+
+    #hyperlink > p {
+        font-size: 14px;
+    }
+}

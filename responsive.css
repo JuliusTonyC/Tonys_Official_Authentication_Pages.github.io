@@ -1,0 +1,245 @@
+@media only screen and (min-width: 2222px) {
+    #form {
+        width: 70%;
+        padding-top: 50px;
+    }
+
+    header {
+        width: 70%;
+        justify-content: start;
+    }
+
+    main {
+        width: 80%;
+        gap: 20px;
+    }
+
+    input,
+    select {
+        width: 25rem;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 12rem;
+    }
+}
+
+@media only screen and (min-width: 2213px) and (max-width: 2221px) {
+    .bottom-buttons {
+        margin-top: 12px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #form {
+        width: 70%;
+        padding-top: 50px;
+    }
+
+    header {
+        width: 70%;
+        justify-content: start;
+    }
+
+    main {
+        width: 80%;
+        gap: 20px;
+    }
+
+    input,
+    select {
+        width: 25rem;
+    }
+}
+
+@media only screen and (min-width: 1293px) and (max-width: 1464px) {
+    input,
+    select {
+        width: 22rem;
+    }
+}
+
+@media only screen and (min-width: 1179px) and (max-width: 1292px) {
+    input,
+    select {
+        width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1179px) {
+    header {
+        width: 60%;
+        justify-content: center;
+    }
+
+    main {
+        max-width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input,
+    select {
+        width: 18rem;
+    }
+}
+
+@media only screen and (min-width: 970px) and (max-width: 1075px) {
+    header {
+        width: 60%;
+        justify-content: center;
+    }
+
+    main {
+        max-width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input,
+    select {
+        width: 30rem;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 970px) {
+    main {
+        width: 75%;
+    }
+
+    input,
+    select {
+        width: 25rem;
+        font-size: 15px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    input,
+    select {
+        width: 20rem;
+        font-size: 15px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 10rem;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    input,
+    select {
+        width: 17rem;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 10rem;
+    }
+
+    main {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #hyperlink {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    main {
+        width: 80%;
+    }
+
+    input,
+    select {
+        width: 14rem;
+        height: 2rem;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 8rem;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    #form > header > h1 {
+        font-size: 1rem;
+    }
+
+    #form > header > p {
+        font-size: 11px;
+    }
+
+    input,
+    select {
+        width: 10rem;
+        height: 1.8rem;
+        font-size: 10px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 7rem;
+    }
+
+    #hyperlink > p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #form > header > img {
+        width: 65px;
+        height: 55px;
+        padding-left: 11px;
+    }
+
+    #form > header > h1 {
+        font-size: 22px;
+        padding-top: 5px;
+    }
+
+    #form > header > p {
+        font-size: 11px;
+    }
+
+    input,
+    select {
+        width: 190px;
+        height: 1.5rem;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 5rem;
+        padding-right: 10px;
+        font-size: 11px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    #hyperlink > p {
+        font-size: 12px;
+    }
+}
