@@ -83,6 +83,7 @@
         font-size: 16px;
     }
 
+    #form > header > p,
     #hyperlink > p {
         font-size: 16px;
     }
@@ -100,6 +101,7 @@
         font-size: 17px;
     }
 
+    #form > header > p,
     #hyperlink > p {
         font-size: 17px;
     }
@@ -114,10 +116,11 @@
     input,
     #google-button {
         width: 18rem;
-        height: 2rem;
-        font-size: 16px;
+        height: 2.1rem;
+        font-size: 17px;
     }
 
+    #form > header > p,
     #hyperlink > p {
         font-size: 16px;
     }
@@ -130,6 +133,7 @@
         font-size: 14px;
     }
 
+    #form > header > p,
     #hyperlink > p {
         font-size: 14px;
     }
